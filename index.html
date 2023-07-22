@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jonathan & Vani Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>Kepada Bapak/Ibu//saudara/i</h4>
+        <h1>Jonathan & Vani</h1>
+        <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+        <div class="simply-countdown"></div>
+        <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
+      </main>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2028, // required
+        month: 6, // required
+        day: 28, // required
+        hours: 9, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+
+    <div class="header">
+      <h1 id="undangan">Undangan Pernikahan</h1>
+      <p><strong>Jonathan A.G., S.Kom &amp; Vani L., S.S</strong></p>
+    </div>
+
+    <div class="invitation-content">
+      <h2>Acara Pernikahan</h2>
+      <div class="event-details">
+        <h3>Akad Nikah</h3>
+        <p>Hari, Tanggal: Rabu, 28 Juni 2028</p>
+        <p>Waktu: 09.00 - 11.00 WIB</p>
+        <p>
+          Tempat: Jl. Pahlawan, Meduran, Awang Awang, Kec. Mojosari, Kabupaten
+          Mojokerto, Jawa Timur 61382, Indonesia
+        </p>
+      </div>
+
+      <h2>R.S.V.P</h2>
+      <p>Mohon konfirmasi kehadiran Anda:</p>
+      <p>Email: joevani@love.com</p>
+      <p>Telp: (021) 123-4567</p>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.4567203847323!2d112.55594627397228!3d-7.525059574258892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7874ce417562ff%3A0x4d23a8b3f2864ee5!2sKUA%20Mojosari!5e0!3m2!1sen!2sus!4v1690013907083!5m2!1sen!2sus"
+      width="400"
+      height="300"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </body>
+</html>
